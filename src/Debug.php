@@ -32,7 +32,7 @@ class Debug
     public static function print_r($arr, $isDie = false, $checkAdmin = true) {
         if(self::check($checkAdmin)) {
             echo "<pre>";
-            print_r($arr, true);
+            print_r($arr);
             echo "</pre>";
             if($isDie) die;
         }
