@@ -3,7 +3,12 @@
   "description": "Simple classes for Bitrix (Yeah...pain)",
   "version": "1.0.1",
   "license": "MIT",
+  "type": "library",
+  "keywords": ["logging", "debaging"],
   "autoload": {
-    "classmap": ["src/"]
+    "psr-4": {
+      "JackLite\\BX\\": "",
+      "classmap": ["src/"]
+    }
   }
 }
