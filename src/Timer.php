@@ -37,6 +37,9 @@ class Timer
         $this->duration = $this->end - $this->start;
     }
 
+    /**
+     * @return int
+     */
     public function getCurrentDuration() {
         $this->end();
         return $this->duration;
