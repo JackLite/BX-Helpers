@@ -7,8 +7,8 @@
   "keywords": ["logging", "debaging"],
   "autoload": {
     "psr-4": {
-      "JackLite\\BX\\": "",
-      "classmap": ["src/"]
-    }
+      "JackLite\\BX\\": ""
+    },
+    "classmap": ["src/"]
   }
 }
