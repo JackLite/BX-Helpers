@@ -1,9 +1,9 @@
 {
   "name": "jacklite/bxhelpers",
   "description": "Simple classes for Bitrix (Yeah...pain)",
-  "version": "1.0.0",
+  "version": "1.0.1",
+  "license": "MIT",
   "autoload": {
     "classmap": ["src/"]
-  },
-  "tags": ["v1.0"]
+  }
 }
